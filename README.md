@@ -100,12 +100,22 @@ Total: 9.405
 ---
 
 ## 🚀 How to Run It
-
 1. Clone the repository or download the ZIP file.
-2. Open the project in IntelliJ IDEA or Eclipse.
-3. Make sure you have the external libraries (lib/*.jar) included in your classpath.
-4. Run the RLogin.java class to start the application.
-5. Access with user AdminPrueba@gmail.com and password AdminPrueba.
+2. Open the project in **IntelliJ IDEA**:
+   - Select **File → New → Project from Existing Sources…**
+   - Choose the project folder you just cloned.
+   - Select **Create project from existing sources** if IntelliJ doesn't detect Eclipse.
+3. Mark the `src/` folder as **Sources Root**:
+   - Right-click `src/` → **Mark Directory as → Sources Root**
+   - (Do NOT mark the project root folder as source)
+4. Add external libraries (JARs) to the project:
+   - Go to **File → Project Structure → Modules → Dependencies → + → JARs or directories**
+   - Select the `librerias/` folder or individual JARs.
+   - Choose **Compile** as the scope.
+5. Run the `RLogin.java` class to start the application.
+6. Login using the following credentials:  
+   - **Email:** AdminPrueba@gmail.com  
+   - **Password:** AdminPrueba
 ---
 
 ## 💡 Improvements I would have liked to see implemented
